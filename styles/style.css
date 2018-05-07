@@ -1,0 +1,124 @@
+body {
+	font-family: arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+div#viewport {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+#viewport {
+	min-height: 100%;
+	position: relative;
+}
+#header {
+	color: black;
+	top: 0px;
+	margin: 0;
+	margin-bottom: 1px;
+	position: relative;
+	width:100%;
+}
+#footer {
+	background-color: rgb(242,242,242);
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+#content {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background: #fff;
+}
+a {
+	font-size: small;
+	text-decoration: none;
+}
+#header a {
+	color: black;
+}
+#footer a {
+	color: #666
+}
+#searchbar {
+	border: 1px solid #cecccc;
+	height: 44px;
+	width: 50%;
+	min-width: 400px;
+	max-width: 600px;
+	box-shadow: 1px 3px 16px #c5c5c5;
+}
+#form input{
+	display:inline-block;
+	float: left;
+	font-size: 16px;
+	border: none;
+	height: 44px;
+	width: 90%;
+	text-align: left;
+}
+.left_links {
+	margin: 7px 10px 7px 10px;
+	display: inline-block;
+	float: left;
+}
+.right_links {
+	margin: 7px 10px 0px 10px;
+	display: inline-block;
+	float: right;
+}
+.left_links a, .right_links a {
+	padding-left:7px;
+	padding-right: 7px;
+}
+button{
+	font-weight: 500;
+	font-size: small;
+	border-radius: 2px;
+}
+button#sign-in {
+	margin-right: 10px;
+	padding: 7px 12px;
+	font-weight: 700;
+	color: #fff;
+	display: inline-block;
+	border: 1px solid #4387fd;
+	background-color: #4387fd;
+}
+div#search-buttons {
+	margin-top: 30px;
+}
+.search_button {
+	color: #808080;
+	border: none;
+	background-color: #f6f6f6;
+}
+#search_submit, #lucky {
+	padding: 10px 15px 10px 15px;
+	font-weight: 700;
+	border-radius: 2px;
+	margin: 0 15px 0 15px;
+}
+#search_submit:hover, #lucky:hover{
+	color: #222;
+	box-shadow: 1px 1px 5px #c5c5c5;
+}
+#searchbar:hover {
+	box-shadow: 3px 8px 20px #c5c5c5;
+
+}
+#voice {
+	display: inline-block;
+	float:right;
+
+}
+#voice-icon {
+	margin: 7px 7px 7px auto;
+	height: 30px;
+}
+
+#logo {
+	margin-bottom: 30px;
+}
