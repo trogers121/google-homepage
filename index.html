@@ -6,54 +6,58 @@
 		<link href="styles/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-<div id="viewport">
-		<div class="nav_bar" id="header">
-
-			<div class="left_links" id="h_l_links">
-				<a href="#">About</a>
-				<a href="#">Store</a>
-			</div>
-			<div class="right_links" id="h_r_links">
-				<a href="#">Gmail</a>
-				<a href="#">Images</a><a href="#">Apps</a>
-				<a href="#">Notifications</a>
-				<button id="sign-in" type="button">Sign In</button>
-			</div>
-
-		</div>
-
-		<div class="nav_bar" id="footer">
-			<div class="left_links" id="f_l_links">
-				<a href="#">Advertising</a><a href="#">Business</a>
-			</div>
-			<div class="right_links" id="f_r_links">
-				<a href="#">Privacy</a>
-				<a href="#">Terms</a>
-				<a href="#">Settings</a>
-			</div>
-		</div>
-
-
-		<div id="content">
-			<center>
-			<img id="logo" alt="Google" height="92" width="272" src="./images/logo.png">
-			<div id="searchbar">
-				<form action="#" id="search_form">
-				<div id="form">
-					<!-- Search Google or type URL -->
-					<input type="search" name="search" placeholder="Search Google or type URL">
-					</input>
+		<!--Define the viewing window-->
+		<div id="viewport">
+			<!-- First block is the top navigation bar -->
+			<div class="nav_bar" id="header">
+				<!-- Left links have special characteristics unique to them -->
+				<div class="left_links" id="h_l_links">
+					<a href="#">About</a>
+					<a href="#">Store</a>
 				</div>
-				<div id="voice">
-				<img id="voice-icon" src="./images/voice.png"></div>
-				</form>
+				<!-- Right links are their own class as well -->
+				<div class="right_links" id="h_r_links">
+					<a href="#">Gmail</a>
+					<a href="#">Images</a><a href="#">Apps</a>
+					<a href="#">Notifications</a>
+					<!-- This button doesn't do anything yet -->
+					<button id="sign-in" type="button">Sign In</button>
+				</div>
+
 			</div>
-			<div id="search-buttons">
-			<button class="search_button" id="search_submit" type="search_button">Google Search</button>
-			<button class="search_button" id="lucky" type="search_button">I'm Feeling Lucky</button>
+			<!-- Defines the bottom navigation bar -->
+			<div class="nav_bar" id="footer">
+				<div class="left_links" id="f_l_links">
+					<a href="#">Advertising</a><a href="#">Business</a>
+				</div>
+				<div class="right_links" id="f_r_links">
+					<a href="#">Privacy</a>
+					<a href="#">Terms</a>
+					<a href="#">Settings</a>
+				</div>
 			</div>
-			<center>
+
+			<!-- This is the main part of the page, all of it is centered and the CSS is written with that in mind -->
+			<div id="content">
+				<center>
+					<img id="logo" alt="Google" height="92" width="272" src="./images/logo.png">
+					<div id="searchbar">
+						<form action="#" id="search_form">
+						<div id="form">
+							<!-- Search Google or type URL -->
+							<input type="search" name="search" placeholder="Search Google or type URL">
+							</input>
+						</div>
+						<div id="voice">
+						<img id="voice-icon" src="./images/voice.png"></div>
+						</form>
+					</div>
+					<div id="search-buttons"> <!--TODO -- Remake these into form submits -->
+						<button class="search_button" id="search_submit" type="search_button">Google Search</button>
+						<button class="search_button" id="lucky" type="search_button">I'm Feeling Lucky</button>
+					</div>
+				</center>
+			</div>
 		</div>
-</div>
     </body>
 </html>
